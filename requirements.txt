@@ -1,0 +1,16 @@
+# Core dependencies for your Streamlit app with Hugging Face Transformers
+streamlit
+transformers
+# PyTorch (CPU version by default; use torch==2.1.0+cu118 for CUDA 11.8, etc. if you want GPU)
+torch
+# (Optional) For streaming output in transformers
+accelerate
+
+# For direct Hugging Face Hub access
+huggingface_hub
+
+# (Optional) If you use other Hugging Face features, add:
+# datasets
+# sentencepiece
+
+dotenv
